@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-
+<!-- Please all required dependencies from here -->
 		<dependency>
 			<groupId>com.sun</groupId>
 			<artifactId>tools</artifactId>
@@ -168,7 +168,6 @@
 			<version>1.7.8</version>
 			<type>pom</type>
 		</dependency>
-
 
 	</dependencies>
 
