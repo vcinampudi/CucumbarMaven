@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="54.235882">
+<testcase classname="MyAccount-Login" name="Login with Valid Username and Password" time="28.465749">
+<system-out><![CDATA[Given Open Browser and StartApplication "https://www.facebook.com/".........passed
+When Enter Login Credentials "inampudivenki@gmail.com" and "Virama#123".....passed
+Then Click on Login Button..................................................passed
+And VerifyName Displayed....................................................passed
+And Clik on Logout..........................................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="MyAccount-Login" name="Login with Valid Username and Password 2" time="25.770133">
+<system-out><![CDATA[Given Open Browser and StartApplication "https://www.facebook.com/".........passed
+When Enter Login Credentials "vcinampudi@gmail.com" and "Virama#123"........passed
+Then Click on Login Button..................................................passed
+And VerifyName Displayed....................................................passed
+And Clik on Logout..........................................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

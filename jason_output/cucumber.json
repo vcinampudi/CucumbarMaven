@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login;login-with-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8344102538,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser and StartApplication \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com/",
+                  "offset": 35
+                }
+              ],
+              "location": "FaceBookLoginStepDefination.open_Browser_and_StartApplication(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2545124785,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Login Credentials \"inampudivenki@gmail.com\" and \"Virama#123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inampudivenki@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Virama#123",
+                  "offset": 55
+                }
+              ],
+              "location": "FaceBookLoginStepDefination.enter_Login_Credentials_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9059462934,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "FaceBookLoginStepDefination.click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268159142,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "VerifyName Displayed",
+            "match": {
+              "location": "FaceBookLoginStepDefination.verifyname_Displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999994869,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clik on Logout",
+            "match": {
+              "location": "FaceBookLoginStepDefination.clik_on_Logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3248905158,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Browser",
+            "match": {
+              "location": "FaceBookLoginStepDefination.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login;login-with-valid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7064953920,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser and StartApplication \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com/",
+                  "offset": 35
+                }
+              ],
+              "location": "FaceBookLoginStepDefination.open_Browser_and_StartApplication(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2509901936,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Login Credentials \"vcinampudi@gmail.com\" and \"Virama#123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vcinampudi@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Virama#123",
+                  "offset": 52
+                }
+              ],
+              "location": "FaceBookLoginStepDefination.enter_Login_Credentials_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7770476725,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "FaceBookLoginStepDefination.click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306006691,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "VerifyName Displayed",
+            "match": {
+              "location": "FaceBookLoginStepDefination.verifyname_Displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3674522213,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clik on Logout",
+            "match": {
+              "location": "FaceBookLoginStepDefination.clik_on_Logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4444271017,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Browser",
+            "match": {
+              "location": "FaceBookLoginStepDefination.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyAccount-Login",
+    "description": "",
+    "id": "myaccount-login",
+    "keyword": "Feature",
+    "uri": "MyAccount_Login.feature"
+  }
+]
